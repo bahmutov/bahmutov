@@ -1,7 +1,7 @@
 {
   "name": "bahmutov",
   "description": "\"npx bahmutov\" - to see my info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "bugs": "https://github.com/bahmutov/bahmutov/issues",
   "config": {
