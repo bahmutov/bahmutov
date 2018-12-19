@@ -32,6 +32,9 @@
     "src/*.js",
     "!src/*-spec.js"
   ],
+  "bin": {
+    "bahmutov": "./src/index.js"
+  },
   "homepage": "https://github.com/bahmutov/bahmutov#readme",
   "keywords": [
     "bahmutov",
