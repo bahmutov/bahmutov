@@ -9,15 +9,32 @@
 [![standard][standard-image]][standard-url]
 [![renovate-app badge][renovate-badge]][renovate-app]
 
+Inspired by (and shamelessly copied from) `npx marius`
+
 ## Install
 
-Requires [Node](https://nodejs.org/en/) version 6 or above.
+Requires [Node](https://nodejs.org/en/) and NPM with `npx` utility.
 
 ```sh
-npm install --save bahmutov
-```
+npx bahmutov
 
-## Use
+   ╭──────────────────────────────────────────────────────────────────────────╮
+   │                                                                          │
+   │   Gleb Bahmutov, PhD                                                     │
+   │   JavaScript ninja, image processing expert, software quality fanatic.   │
+   │                                                                          │
+   │          Web: https://glebbahmutov.com                                   │
+   │         Blog: https://glebbahmutov.com/blog                              │
+   │         Work: https://www.cypress.io                                     │
+   │       Slides: https://slides.com/bahmutov                                │
+   │       GitHub: https://github.com/bahmutov                                │
+   │      Twitter: https://twitter.com/bahmutov                               │
+   │     LinkedIn: https://linkedin.com/in/bahmutov                           │
+   │                                                                          │
+   │   Go on, give https://github.com/cypress-io/cypress a star!              │
+   │                                                                          │
+   ╰──────────────────────────────────────────────────────────────────────────╯
+```
 
 ### Small print
 

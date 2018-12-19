@@ -63,6 +63,7 @@
   "scripts": {
     "ban": "ban",
     "deps": "deps-ok && dependency-check --no-dev .",
+    "demo": "node ./src",
     "issues": "git-issues",
     "license": "license-checker --production --onlyunknown --csv",
     "lint": "standard --verbose --fix src/*.js",
@@ -71,7 +72,7 @@
     "pretty": "prettier-standard 'src/*.js'",
     "secure": "nsp check",
     "size": "t=\"$(npm pack .)\"; wc -c \"${t}\"; tar tvf \"${t}\"; rm \"${t}\";",
-    "test": "npm run unit",
+    "test": "npm run demo",
     "unit": "mocha src/*-spec.js",
     "unused-deps": "dependency-check --unused --no-dev ."
   },
@@ -86,5 +87,9 @@
     "pre-git": "3.17.1",
     "prettier-standard": "8.0.1",
     "standard": "12.0.1"
+  },
+  "dependencies": {
+    "boxen": "2.1.0",
+    "chalk": "2.4.1"
   }
 }
